@@ -161,9 +161,9 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(44, 26);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(70, 13);
+            this.label16.Size = new System.Drawing.Size(76, 13);
             this.label16.TabIndex = 35;
-            this.label16.Text = "companylogo";
+            this.label16.Text = "companyloooo";
             // 
             // label17
             // 
