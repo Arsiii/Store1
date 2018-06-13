@@ -80,17 +80,23 @@
     <Compile Include="Forms\nextfrm.Designer.cs">
       <DependentUpon>nextfrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Randomform.cs">
+    <Compile Include="Forms\ProductDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Randomform.Designer.cs">
-      <DependentUpon>Randomform.cs</DependentUpon>
+    <Compile Include="Forms\ProductDetails.Designer.cs">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ResetPass.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ResetPass.Designer.cs">
       <DependentUpon>ResetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockPurchase.designer.cs">
+      <DependentUpon>StockPurchase.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,8 +109,14 @@
     <EmbeddedResource Include="Forms\nextfrm.resx">
       <DependentUpon>nextfrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductDetails.resx">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ResetPass.resx">
       <DependentUpon>ResetPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockPurchase.resx">
+      <DependentUpon>StockPurchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
